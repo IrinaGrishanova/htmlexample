@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Пример указания цвета границ элемента</title>
+<style> 
+.primer1 {
+border-color: red green blue yellow; /* задаём цвета для границ Top-Right-Bottom-Left */
+ line-height: 100px;
+
+}
+.primer2 {
+border-color: red green blue; /* задаём цвета для границ Top-Right&Left-Bottom  */
+  line-height: 100px;
+}
+.primer3 {
+border-color: red green; /* задаём цвета для границ Top&Bottom-Right&Left  */
+  line-height: 100px;
+}
+.primer4 {
+border-color: red; /* задаём цвет для всех границ красный Top&Right&Bottom&Left */
+  line-height: 100px;
+}
+p {
+width: 100px; /* задаём ширину элемента */
+  height: 100px; /*задаем высоту*/
+border-width: 10px; /* задаём  ширину границы */
+border-style: solid; /* задаём сплошную границу */
+text-align: center; /* задаём выравнивание текста по центру */
+  float: left; /* задаем в 1 строчку */
+  margin: 10px; /*задаем отступы*/
+  
+}
+</style>
+</head>
+	<body>
+		<p class = "primer1">1</p>
+		<p class = "primer2">2</p>
+		<p class = "primer3">3</p>
+		<p class = "primer4">4</p>
+	</body>
+</html>
